@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* Generali */
+
+#page {
+   position: absolute;
+   
+   left:50%;
+}
+
+body {
+    
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+   width: 100px;
+   position: relative;
+}
+
+
+/* Intestazione */
+
+
+
+#title {
+    
+    height: 26vh;
+    width: 200vh;
+  
+    margin-top: 5px;
+}   
+   
+   h1, h2, h3 {
+    text-align: center;
+   }
+
+   h2 {
+    font-size: 16px;
+   }
+
+   h3 {
+    display: inline;
+    margin-left: 410px;
+   margin-right: 18px;
+   }
+
+   .up {
+    color:rgb(224, 66, 174);
+    padding-right: 34px;
+    text-decoration: none;
+   }
+
+/* Nav */
+
+   #nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+   
+    width:200vh;
+    height: 107px;
+   }
+
+   #popular {
+    background-color: white;
+    border: solid 3px pink;
+    border-radius: 10px;
+    padding: 12px;
+   font-size: 25px;
+   justify-content: flex-start;
+   margin-right: 108px;
+   }
+
+ a {
+    color:black;
+    margin-right: 34px;
+    text-decoration: none;
+ }
+
+ #webdesign {
+    font-weight: bold;
+    border:solid rgb(230, 219, 219);
+    border-radius: 10px;
+    background-color: rgb(230, 219, 219);
+    padding: 7px;
+    margin-left: -85px;
+ }
+
+ #filters {
+    border:solid rgb(230, 219, 219);
+    border-radius: 5px;
+    background-color:white;
+    padding: 7px;
+    justify-content: flex-end;
+    margin-left: -12px;
+   
+ }
+
+/* Main */
+ #flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 115px;
+    justify-content: space-around;
+    width: 200vh;
+ }
+
+ img {
+    object-fit: contain;
+ }
+
+ .logo h6, figcaption { 
+   display:flex;
+   flex-wrap: wrap;
+   height: 2.5em;
+   margin-bottom:41px;
+         
+}
+ 
+ figcaption {
+     align-items:center
+ }
+ 
+ 
+ 
+ h6 {
+     margin-left: 20px;
+ }
+
+ .logo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding:1 1 1 1;
+    margin-right: -14px;
+   
+ }
+
+ .pro {
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: rgb(230, 219, 219);
+    padding: 3px;
+    margin-left: 8px;
+    margin-right: 22px;
+ }
+
+ #boosted {
+    color:rgb(230, 219, 219);
+    margin-left: 80px;
+ }
+
+ span {
+    margin-left: 1px;
+    margin-right: 4px;
+    font-size: 14px;
+   
+ }
+
+ .kobbie {
+    margin-left: 22px;
+    margin-right: 85px;
+ }
+
+.icons8 {
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: rgb(230, 219, 219);
+    padding: 3px;
+    margin-left: 8px;
+    margin-right: 61px;
+}
